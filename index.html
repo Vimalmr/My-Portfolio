@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--Swiper css-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
     <!--unicons css-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
@@ -549,10 +552,10 @@
             <h2 class="section__title">Portfolio</h2>
             <span class="section__subtitle">Most recent Work</span>
             
-            <div class="portfolio__container container">
-                <div>
+            <div class="portfolio__container container swiper">
+                <div class="swiper-wrapper">
                     <!--Portfolio #1-->
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/imgs/photo070.jpg" alt="me" class="portfolio__img">
 
                         <div class="portfolio__data">
@@ -565,7 +568,7 @@
                     </div>
 
                     <!--Portfolio #2-->
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/imgs/photo070.jpg" alt="me" class="portfolio__img">
 
                         <div class="portfolio__data">
@@ -578,7 +581,7 @@
                     </div>
 
                     <!--Portfolio #3-->
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/imgs/photo070.jpg" alt="me" class="portfolio__img">
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Raaj Priya Steels Website</h3>
@@ -589,10 +592,24 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
         </section>
 
     </main>
+
+    <!--Swiper Js-->
+    <script src="assets/scripts/swiper-bundle.min.js"></script>
     
     <!--JS Scripts-->
     <script src="./assets/scripts/script.js"></script>
