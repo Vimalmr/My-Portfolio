@@ -227,6 +227,12 @@ img{
     bottom: 0;
 }
 
+/* Active Link */
+
+.active-link{
+    color: var(--first-color);
+}
+
 /* HOME Styles */
 
 .home__container{
