@@ -99,11 +99,6 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
     el: '.swiper-pagination',
     clickable: true,
     dynamicBullets: true,
-  },
-  breakpoints:{
-    768:{
-        slidesPerView: 2,
-    }
   }
 });
 
