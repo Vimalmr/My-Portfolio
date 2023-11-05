@@ -519,9 +519,12 @@ img{
 
 .skills__py,
 .skills__mysql,
-.skills__react,
 .skills__photoshop{
     width: 85%;
+}
+
+.skills__react{
+    width: 75%;
 }
 
 .skills__css,
@@ -533,9 +536,11 @@ img{
     width: 70%;
 }
 
-.skills__js,
+.skills__js{
+    width: 70%;
+}
 .skills__java{
-    width: 60%;
+    width: 85%;
 }
 
 .skills__close .skills__list{
