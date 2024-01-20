@@ -852,6 +852,8 @@ swiper-portfolio-icon{
 
 .contact__container{
     row-gap: 3rem;
+    display: flex;
+    justify-content: center;
 }
 
 .contact__information{
@@ -1180,6 +1182,7 @@ swiper-portfolio-icon{
     }
     
     .about__info{
+        margin-top: 20%;
         justify-content: space-between;
     }
     
