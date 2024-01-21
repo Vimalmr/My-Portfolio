@@ -719,6 +719,10 @@ img{
 
 /* Portfolio Page Styling */
 
+.portfolio__a{
+    color: inherit;
+}
+
 .portfolio__container{
     overflow: initial;
 }
