@@ -632,6 +632,9 @@ img{
     transition: .3s;
 }
 
+.services__content p{
+    padding-right: 11rem;
+}
 .services__content:hover{
     box-shadow: 0 4px 8px rgba(0,0,0,.15);
 }
