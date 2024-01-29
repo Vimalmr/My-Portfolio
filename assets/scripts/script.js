@@ -143,9 +143,18 @@ const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'
 
-// Previously selected topic (if user selected)
-const selectedTheme = localStorage.getItem('selected-theme')
-const selectedIcon = localStorage.getItem('selected-icon')
+// Selecting the theme according to system theme
+let selectedTheme = "dark";
+let selectedIcon = "uil-moon";
+
+const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+if (darkThemeMq.matches) {
+    selectedTheme = "dark";
+    selectedIcon = "uil-moon";
+} else {
+    selectedIcon = "light";
+    selectedIcon = "uil-sun";
+}
 
 // We obtain the current theme that the interface has by validating the dark-theme class
 const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
